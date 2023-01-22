@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/css/all.min.css">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Shop</title>
+</head>
+<body>
+
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <img src="images/logo.png" alt="logo" >
+               <nav class="navbar">
+          
+            
+              </nav> <!-- navbar -->
+              <div class="login">
+                <ul class="list-unstyled">
+                   <li> <i class="fa-solid fa-magnifying-glass fa-lg"></i> <input type="text" class="search_bar" placeholder="Search for drinks"></li>
+                   <li class="login-a"> <a href="login.html"><i class="fa-solid fa-user fa-lg "  ></i></a></li>
+                   <li class="register-a"> <a href="register.html"><i class="fa-solid fa-user-plus fa-lg"></i></a></li>
+                    <li><i class="cart fa-solid fa-cart-shopping fa-lg"></i><div class="item-numbers"></div>
+                    <div class="cart-products">
+                     <div class=""></div>
+                      <a href="cart.html">View all drinks</a>
+                    </div>
+                    </li>
+                    <li id="user"></li>
+                  
+                </ul>
+
+              </div> <!-- login -->
+           
+            </div>
+
+        </div> <!-- container -->
+    </header> 
+
+    <!-- slider section -->
+    <section class="slider">
+      <div class="container">
+        <div class="banner-item">
+          <img src="images/main-banner-1-1600x700.jpg" alt="silder1" >
+        </div>
+        <div class="banner-item">
+          <img src="images/main-banner-2-1600x700.jpg" alt="silder2" >
+        </div>
+        <div class="banner-item">
+          <img src="images/main-banner-3-1600x700.jpg" alt="silder3" >
+        </div>
+        <div class="banner-item">
+          <img src="images/main-banner-4-1600x700.jpg" alt="silder4" >
+        </div>
+     
+      <div class="dotsbox" style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+   
+      </div>
+      </div>
+    </section>
+<!-- category section -->
+    <section class="category pd-y">
+      <div class="section-header">
+        <h2 class="section-title">special category</h2>
+        <div class="line"></div>
+      </div> <!-- section header -->
+      <div class="container">
+        <div class="category-items">
+          <div class="category-item">
+            <img src="images/category-banner1.jpg" alt="banner1">
+            <span class="category-item-subtitle">Most Popular</span>
+            <h3 class="category-item-title">Peach can</h3>
+            <i class="fa-solid fa-angles-right"></i>
+          </div>
+       
+        
+          <div class="category-item">
+            <img src="images/category-banner2.jpg" alt="banner1">
+            <span class="category-item-subtitle">Most Popular</span>
+            <h3 class="category-item-title">Brtizels</h3>
+            <i class="fa-solid fa-angles-right"></i>
+          </div>
+        
+       
+          <div class="category-item">
+            <img src="images/category-banner3.jpg" alt="banner1">
+            <span class="category-item-subtitle">Most Popular</span>
+            <h3 class="category-item-title">Zomorda</h3>
+            <i class="fa-solid fa-angles-right"></i>
+          </div>
+        
+       
+          <div class="category-item">
+            <img src="images/category-banner4.jpg" alt="banner1">
+            <span class="category-item-subtitle">Most Popular</span>
+            <h3 class="category-item-title">Noice</h3>
+            <i class="fa-solid fa-angles-right"></i>
+          </div>
+        </div>
+        <!-- bollets div -->
+
+        <div class="discount pd-y">
+          <div class="discount-desc">
+            <div class="top">
+              <i class="fa-sharp fa-solid fa-quote-left fa-lg"></i>
+              <h2 class="discount-title">Who Are We?</h2>
+              <span class="discount-subtitle">(Salamanc's)</span>
+            </div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis minus beatae quaerat ullam aspernatur ipsum amet nostrum sit minima? In necessitatibus commodi quos velit pariatur eius officiis, praesentium doloremque! Aliquam!
+            </p>
+            <div class="bollets">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </div>
+          <div class="discount-item Omar">
+            <div class="discount-item-info">
+              <span>Manager</span>
+              <h2>Omar</h2>
+            </div>
+          </div>
+          <div class="discount-item Ahmad"> 
+            <div class="discount-item-info">
+            <span>Manager</span>
+            <h2>Ahmad</h2>
+           </div>
+        </div>
+
+        </div> <!-- discount -->
+
+        <div class="sprite">
+          <div class="sprite-item">
+            <div class="sprite-icon sprite-icon-1"></div>
+            <div class="sprite-info">
+              <h3>Free Deleviry</h3>
+              <span>Free shipping in all orders</span>
+            </div>
+           </div>
+          <div class="sprite-item">
+            <div class="sprite-icon sprite-icon-2"></div>
+            <div class="sprite-info">
+              <h3>Great Discounts</h3>
+              <span>Two of you? just invite a third one for free! </span>
+            </div>
+          </div>
+          <div class="sprite-item">
+            <div class="sprite-icon sprite-icon-3"></div>
+            <div class="sprite-info">
+              <h3>Awesome Service</h3>
+              <span>Any time! Every Where!</span>
+            </div>
+          </div>
+          <div class="sprite-item">
+            <div class="sprite-icon sprite-icon-4"></div>
+            <div class="sprite-info">
+              <h3>Qulaity</h3>
+              <span>Top Qulaity.</span>
+            </div>
+          </div>
+          <div class="sprite-item">
+            <div class="sprite-icon sprite-icon-5"></div>
+            <div class="sprite-info">
+              <h3>Whatever!</h3>
+              <span>I don't know what to type here.</span>
+            </div>
+          </div>
+        </div><!-- sprite -->
+
+
+      </div> <!-- container -->
+    </section> <!-- category -->
+
+    <!-- Product Section -->
+    <section class="products pd-y" id="products">
+      <div class="section-header">
+        <h2 class="section-title">Drinks</h2>
+        <div class="line"></div>
+      </div> <!-- section header -->
+
+      <div class="container">
+        <ul class="product-list">
+          <li><a href="#">Summer Orange</a></li>
+          <li><a href="#">Blue Stuff</a></li>
+          <li><a href="#">Flaming Red</a></li>
+          <li><a href="#">Softy Pink</a></li>
+        </ul>
+
+        <div class="product-items">
+         
+        
+        </div>
+      </div><!-- container -->
+    </section>
+    <footer class="footer pd-y">
+      <div class="container">
+        <div class="company-info">
+          <img src="images/footer-logo.png" alt="">
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut explicabo veniam ipsam culpa laudantium iste soluta fuga nihil ad officia quidem, repellat ducimus, quos, asperiores cum ipsa impedit! Hic, quae.</p>
+        </div>
+        <div class="information">
+          <ul class="info-list">
+            <h3>Information</h3>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Deleviry information</a></li>
+            <li><a href="#">Privacy</a></li>
+            <li><a href="#">Site map</a></li>
+            <li><a href="#">Conditions</a></li>
+          </ul>
+        </div>
+        <div class="my-account">
+          <ul class="account-list">
+            <h3>My Account</h3>
+            <li><a href="#">My account</a></li>
+            <li><a href="#">Order history</a></li>
+            <li><a href="#">Wish list</a></li>
+            <li><a href="#">Returns</a></li>
+          </ul>
+        </div>
+        <div class="subscribe-now">
+          <h3>Subscribe now</h3>
+          <input type="email" class="email" id="email" placeholder="Enter your email">
+
+        </div>
+       
+      </div>
+    </footer>
+    <script src="js/data.js"></script>
+  <script src="js/app.js"></script>
+  <script src="js/user.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
